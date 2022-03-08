@@ -119,6 +119,14 @@ body {
   position: relative;
   overflow: hidden;
 }
+.img-container img{
+  top: 0;
+  display: block;
+    max-width:16.25rem;
+    max-height:16.25rem;
+    width: auto;
+    height: auto;
+}
 .bag-btn {
   position: absolute;
   top: 70%;
@@ -196,7 +204,7 @@ body {
   transform: translateX(100%);
 }
 .showCart {
-  transform: translateX(100%);
+  transform: translateX(0);
 }
 .transparentBcg {
   visibility: visible;
